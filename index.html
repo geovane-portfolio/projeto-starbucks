@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Starbucks</title>
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+
+    <script type="text/javascript">
+        window.onload = function() {
+            document.querySelector(".menu-opener").addEventListener("click", function(){
+                if(document.querySelector("nav").style.display =='flex') {
+                    document.querySelector("nav").style.display ='none';
+                } else {
+                    document.querySelector("nav").style.display ='flex';
+                }
+            });
+        };
+    </script>
+
+</head>
+<header>
+    <div class="line"></div>
+    <div class="container header--area">
+        <div class="header-left">
+            <a href=""><img src="assets/images/logo.png" /></a>
+        </div>
+        <div class="header-right">
+            <div class="header--search">
+                <form>
+                    <input type="search" name="search" placeholder="Search">
+                    <button>
+                        <img src="assets/images/loupe.png" />
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</header>
+<body>
+
+    
+</body>
+</html>
