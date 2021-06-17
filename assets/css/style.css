@@ -1,0 +1,26 @@
+* {
+    
+}
+body {
+    font-family:'Open Sans', sans-serif;
+    margin: 0;
+    background-color: #666;
+}
+header .line {
+    background-color: #117050;
+    height: 10px;
+}
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+.header--area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+.header-left img {
+    width: 64px;
+    height: 64px;
+}
